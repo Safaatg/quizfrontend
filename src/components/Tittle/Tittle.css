@@ -1,0 +1,24 @@
+#TittlWraper {
+    width: 50%;
+}
+#TittleHeader {
+    font-size: 80px;
+    color: white;
+}
+
+#pa {
+    color: darkgray;
+}
+@media (max-width: 425px) {
+    /* Styles for smaller screens */
+ 
+    #TittlWraper {
+        width: 70%;
+    }
+    #TittleHeader {
+        font-size: 40px;
+        color: white;
+    }
+    
+
+  }

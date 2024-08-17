@@ -1,0 +1,46 @@
+#LanguagesWraper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    
+    color: azure;
+}
+
+#LanguagesWraper > button {
+    height: 70px;
+    background-color: #3C4C67;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+#LanguagesWraper > button:hover {
+    background-color: #556b91;
+}
+#LanguagesWraper  img {
+    background-color: rgb(246, 243, 239);
+    border-radius: 8px;
+}
+
+/* Layout */
+@media (max-width: 425px) {
+    /* Styles for smaller screens */
+    .icons {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .container .title{
+        max-width: 300px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+  }
